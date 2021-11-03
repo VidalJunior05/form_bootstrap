@@ -1,0 +1,35 @@
+:root{
+    --bgColor-body: #ddd;
+    ---bgColor-form: rgb(200, 211, 211);
+    
+    --colorFooter:#999;
+}
+body{
+    background-color: var(--bgColor-body)!important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+h2{
+    margin:20px 0 !important;
+}
+.area-form{
+   width:100%;
+   max-width:350px;
+   background-color: var(---bgColor-form);
+   text-align: center;
+   padding:30px;
+   border-radius: 10px;
+}
+input{
+    margin:10px 0 !important;
+}
+.logo-form {
+    width:100%;
+    max-width:150px;
+    height:auto;
+}
+.text-gray{
+    color: var(--colorFooter);
+}
